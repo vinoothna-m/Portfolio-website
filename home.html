@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vinoothna's Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="animation.css">
+    <link rel="stylesheet"href="https://unpkg.com/boxicons@latest/css/boxicons.min.css"> 
+    <link rel="icon" href="C:\Users\vinoo\OneDrive\Desktop\VPortfolio\logo"> 
+</head> 
+<!-- 5,21,-->           
+
+      <body>
+         <div>
+     <div class="wave"></div>
+     <div class="wave"></div>
+     <div class="wave"></div>
+  </div>
+        
+        <!------Header Section------>
+	<header>
+		
+		<ul class="navlist">
+			<h1><li><a href="#home" >Home</a></li></h1>
+			<h1><li><a href="#about">AboutMe</a></li></h1>
+			<h1><li><a href="#skills">Skills</a></li></h1>
+			<h1><li><a href="#projects">Projects</a></li></h1>
+            <h1><li><a href="#services">Internships</a></li></h1>
+            <h1><li><a href="#certificates">Certifications</a></li></h1>
+			<h1><li><a href="#contact">Contact</a></li></h1>
+		</ul>
+		<div class="bx bx-menu" id="menu-icon"></div>
+	</header>
+    <script>
+        function createParticle() {
+            const particle = document.createElement("div");
+            particle.classList.add("particle");
+            
+            document.body.appendChild(particle);
+            
+            const startX = Math.random() * window.innerWidth;
+            const startY = -10;
+            particle.style.left = `${startX}px`;
+            particle.style.top = `${startY}px`;
+            
+            setTimeout(() => {
+                particle.remove();
+            }, 4000);
+        }
+        
+        setInterval(createParticle, 300);
+    </script>        
+	
+	 <!-- Home Section -->
+
+<section id="home" class="home-section">
+    <div class="container">
+        <h1>Hi, I'm <span class="name">Madithati Vinoothna</span></h1>
+        <h2>Software Developer</h2>
+        <p>Passionate about building efficient and scalable software solutions using Python, Java, and web technologies.</p>
+        <a href="#projects" class="btn">View My Work</a>
+      
+    </div>
+  </section>
+        
+        <!---------about Section --------------->
+
+    <section id="about" class="about-section">
+        <div class="container">
+          <h2><span>About Me</span></h2>
+
+          <p>
+            Hello! I'm a passionate Software Developer with a strong foundation in programming languages as well as web technologies.As a fresher in the tech industry, I am eager to apply my technical expertise to real-world challenges and develop scalable, high-performance applications.   
+            Technology evolves rapidly, and I am committed to staying updated with the latest industry trends, frameworks, and best practices.
+          </p>
+          <p>My adaptability enables me to embrace new tools and methodologies with ease.
+	 I thrive in team environments where I can contribute innovative ideas, exchange knowledge, and work alongside experienced professionals to deliver high-quality software solutions. . I enjoy collaborating on projects and am constantly exploring new technologies.
+     Let's connect and build something exceptional.     
+    </p>
+        
+        <br>
+				<h1><a href="MADITHATI-VINOOTHNA-RESUME.pdf" class="btn" target="_blank">Resume</a></h1>
+            </div>
+      </section>
+    <!-----------Skills Section-------------->
+	<section class="skills" id="skills">
+        <div class="main-text" style="padding-bottom: 5px;">
+            <h2> <span>Skills Set</span></h2>
+        </div>
+        <div class="skills-content">
+            <div class="box">
+                <div class="s-icons">
+                    <i class='bx bxl-python'></i>
+                </div>
+                <h3><span>Skills</span></h3>
+                <ul>
+                    <li>Languages: Python, SQL, Java</li>
+                    <li>Web Development: HTML, CSS, JavaScript</li>
+                    <li>DBMS: MySQL, NoSQL </li>
+                    <li>Framework: Django</li>
+			
+                </ul>
+                
+            </div>
+    
+            <div class="box">
+                <div class="s-icons">
+                    <i class='bx bx-desktop'></i>
+                </div>
+               <h3><span>Tools</span></h3>
+                <ul>
+                    <li>MS Office</li>
+                    <li>Github</li>
+                    <li>Git</li>
+                    <li>VS Code</li>
+                    
+                </ul>
+            </div>
+        
+        <div class="box">
+            <div class="s-icons">
+                <i class='bx bx-conversation'></i>
+            </div>
+           <h3><span>Interpersonal skills</span></h3>
+            <ul>
+                <li>Communication</li>
+                <li>Active Learning</li>
+                <li>Team Work</li>
+                <li>Adaptability</li>
+                <li>Creativity and Innovation</li>
+            </ul>
+        </div>
+    </div>
+    </section>
+    
+    <!-----------Project Section--------------->
+    <section class="projects" id="projects">
+       
+        <div class="main-text">
+            <h2><span>Latest Projects </span></h2>
+        </div>
+
+        <div class="projects-content">
+           
+            <!-- Project 3 -->
+		 <div class="row">
+                <img src="car1.jpg" height="300px">
+
+                <div class="layer">
+                    <h5>Automatic Parking System Using Django</h5>
+                    <p>IThe Automated Parking System is a web application built with Django to manage parking spaces efficiently. 
+                        It allows users to check available slots, book parking, and track vehicle entries and exits. 
+                        The system provides real-time updates for slot availability and user-friendly management for administrators.
+                    </p>
+                        <a href="https://github.com/vinoothna-m/automated-parking-system" target="_blank"> <i class='bx bx-link-external'></i></a>
+                    
+                </div>
+            </div>
+          
+		 <div class="row">
+                <img src="weather.jpg" height="300px" >
+
+                <div class="layer">
+                    <h5>Weather Forecasting</h5>
+                    <p>The Weather App provides real-time weather updates for any city around the world.
+                         By simply entering a city name, users can view the current temperature, humidity, wind speed, and weather conditions. 
+                         The app also includes a 5-day forecast and supports dynamic weather icons for easy interpretation.
+                    </p>
+                    <a href="https://github.com/vinoothna-m/Weather-app" target="_blank"> <i class='bx bx-link-external'></i></a>
+                    
+                </div>
+            </div>
+       
+		  <div class="row">
+                <img src="speech.jpg" style="width: 500px; height: 300px;" class="center">
+
+                <div class="layer" >
+                    <h5> Multi-Modal Hate Speech Detection</h5>
+                    <p>The Multi-Model Hate Speech Recognition project uses machine learning techniques to detect hate speech in text.
+                         It leverages multiple models, such as SVM, Random Forest, and LSTM, to improve classification accuracy.
+                          The system processes input text and classifies it as either hate speech or non-hate speech with high precision
+                    </p>
+                    <a href="https://github.com/vinoothna-m/Hate-speech-recognition-ML" target="_blank"> <i class='bx bx-link-external'></i></a>
+                    
+                </div>
+            </div>
+
+            <div class="row">
+                <img src="netflix.jpg" height="300px" >
+
+                <div class="layer">
+                    <h5>Netflix clone</h5>
+                    <p>The Netflix Clone is a web application built to replicate the core features of Netflix.
+                        It offers a user-friendly interface to browse movies, TV shows, and video content. 
+                        The app fetches real-time data using Movie Database, API to display a variety of movie and TV content, including images, trailers, and detailed information like ratings, and cast.</p>
+                    <a href="https://github.com/vinoothna-m/Netflix-clone" target="_blank"> <i class='bx bx-link-external'></i></a>
+                    
+                </div>
+            </div>
+
+           </div>
+    </section>
+    
+    <!--Intership-->
+
+    <section class="services" id="services" >
+        <div class="contanier">
+            <div class="sec-top">
+               <b> <h2> <span>My Internships</span></h2></b>
+            </div>
+<br>
+<br>
+
+           
+		    <div class="box">
+                    <i class="fa-solid fa-pen-ruler"></i>
+                    <h3>APSHE Data Science</h3>
+                      <p>The certificate of the virtual internship provided by APSCHE.</p>
+
+                          <a href="data.jpg" class="btn">Certificate</a>
+                </div>
+                <br>
+                <br>
+                <div class="box">
+                    <i class="fa-solid fa-code"></i>
+                    <h3>Cyber Security Internship</h3>
+                    <p>The certificate of the virtual internship provided by Skill Dzire.</p>
+
+                         <a href="cs.jpg" class="btn">Certificate</a> 
+                </div>
+		     <br><br>
+                <div class="box">
+                    <i class="fa-solid fa-code"></i>
+                    <h3>MSME Web Programming Virtual Internship</h3>
+                    <p>The certificate of the virtual internship provided by MSME.</p>
+
+                         <a href="Web.jpg" class="btn">Certificate</a> 
+                </div>
+                <br><br>
+                
+ 
+            </div>
+        </div>
+    </section>
+
+ <!-- Certifications section -->
+
+<section class="certificates" id="certificates">
+   
+    <div class="top">
+        <h2><span>My Certifications </span></h2>
+    </div>
+    <br>   
+    <br> 
+      <div class="cer-1"  >          
+        <img class="cer1" src="cs50.jpg" height="315px" width="315px" alt="sql CS50's">
+    &nbsp;  &nbsp; &nbsp; &nbsp; 
+    <img class="cer2" src="sql.jpg" height="315px" width="315px" alt="sql" >
+    &nbsp; &nbsp; &nbsp; &nbsp; 
+    <img class="cer3" src="data.jpg" height="315px" width="315x" alt="data" >
+    
+   
+</div>
+<br>
+<br>
+<br>   
+    <br> 
+      <div class="cer-2" style="padding-left: 0px;">          
+    <img class="cer4" src="cloud.jpg" height="315px" width="315px" alt="cloud" >
+    &nbsp;  &nbsp; &nbsp; &nbsp; 
+    <img class="cer5" src="deep.jpg" height="315px" width="315px" alt="deep" >
+    &nbsp; &nbsp; &nbsp; &nbsp; 
+    <img class="cer6" src="basic.jpg" height="315px" width="315px" alt="basic" >
+    
+   
+</div>
+<br>
+<br>
+<div class="cer-3" style="padding-left: 0px;">          
+    <img class="cer7" src="cyber.jpg" height="315px" width="315px" alt="cyber" >
+    &nbsp;  &nbsp; &nbsp; &nbsp;
+	<img class="cer9" src="ai.jpg" height="315px" width="315px" alt="ai" >
+    &nbsp; &nbsp; &nbsp; &nbsp; 
+     <img class="cer8" src="encrypt.jpg" height="315px" width="315px" alt="encrypt" >
+   
+</div>
+<br>
+<br>
+<div class="cer-4" style="padding-left: 0px;">          
+    <img class="cer10" src="web.jpg" height="315px" width="315px" alt="web" >
+    &nbsp;  &nbsp; &nbsp; &nbsp;
+	<img class="cer11" src="Python.jpg"height="315px" width="315px" alt="python" >
+    &nbsp; &nbsp; &nbsp; &nbsp; 
+     <img class="cer12" src="excel.jpg" height="315px" width="315px" alt="excel" >
+   
+</div>
+
+
+</section>
+<!------------------Contact section------------>
+
+<section id="contact" class="contact-section">
+    <div class="container">
+      <h2><span>Contact Me!</span></h2>
+      <p>If you'd like to get in touch, feel free to reach out through any of the following ways:</p>
+      
+      <div class="contact-info">
+        <p><strong>Address:</strong>Tirupati, Andhra Pradesh, India</p>
+        <p><strong>Phone:</strong> +91 7207998329</p>
+        <p><strong>Email:</strong> <a href="mailto:vinoothnamadithati@gmail.com"> vinoothnamadithati@gmail.com</a></p>
+        <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/vinoothna-madithati" target="_blank"> linkedin.com/in/vinoothna-madithati</a></p>
+        <p><strong>GitHub:</strong> <a href="https://github.com/vinoothna-m" target="_blank"> github.com/vinoothna-m</a></p>
+      </div>
+    </div>
+  </section>
+
+<!---------End Section---------->
+<section class="end" >
+	<div class="last-text">
+		<p > <span>Designed by © Madithati Vinoothna</span> </p>
+	</div>
+	<div class="top">
+		<a href="#home"><span><i class='bx bx-up-arrow-alt' ></i></span></a>
+	</div>
+</section>
+  	
+    </body>
+</html>
