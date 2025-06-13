@@ -38,4 +38,4 @@ A personal portfolio website built to showcase my skills, projects, and experien
    cd portfolio-website
 
 Link:
-https://684b08519031150bb0bd8aae--candid-dragon-c9b320.netlify.app/
+https://vinoothna-s-portfolio.netlify.app/
