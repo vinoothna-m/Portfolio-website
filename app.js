@@ -48,7 +48,7 @@ revealSections();
 
 // === Optional Typing Effect ===
 const tagline = document.querySelector('.tagline');
-const text = "into Interactive Digital Solutions. ";
+const text = "into interactive web solutions through code and creativity. ";
 let i = 0;
 function typeWriter() {
   if (i < text.length) { tagline.innerHTML += text.charAt(i); i++; setTimeout(typeWriter, 100); }
@@ -66,4 +66,5 @@ document.addEventListener('click', function (e) {
   const urlToOpen = preview || href || '#';
   // open in new tab/window
   window.open(urlToOpen, '_blank', 'noopener');
+
 });
