@@ -468,7 +468,9 @@ body {
   backdrop-filter: blur(15px);
   text-align: left;
 }
-
+.contact-info {
+  text-align: center; /* center content inside left contact card */
+}
 .contact-info h3 {
   font-size: 1.4rem;
   margin-bottom: 15px;
@@ -722,5 +724,6 @@ a.btn-outline {
 .glow-animate {
   animation: pulseGlow 2s infinite;
 }
+
 
 
